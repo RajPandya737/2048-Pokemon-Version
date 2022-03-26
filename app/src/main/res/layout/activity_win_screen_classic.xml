@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#78A0F8"
+    tools:context=".WinScreenClassic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--The win screen tells the player if they won the classic 2048-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+<!--This linear layoutout contains the text, and a button-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="You Got the 2048"
+                android:textColor="#F6FF89"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="You Win"
+                android:textColor="#F6FF89"
+                android:textSize="50dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="?android:attr/colorActivatedHighlight"
+                android:text="Go to Home"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:onClick="home"/>
+
+
+        </LinearLayout>
+<!--Gif image at the bottom of the screen-->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="470dp"
+                android:layout_height="231dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ops1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

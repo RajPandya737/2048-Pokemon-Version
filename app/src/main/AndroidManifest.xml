@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pandyatwentyfourtyeight">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PandyaTwentyFourtyEight">
+        <activity
+            android:name=".LoadScreen"
+            android:exported="false" />
+        <activity
+            android:name=".RateScreen"
+            android:exported="false" />
+        <activity
+            android:name=".WinScreenStory"
+            android:exported="false" />
+        <activity
+            android:name=".StoryS2"
+            android:exported="false" />
+        <activity
+            android:name=".WinScreenClassic"
+            android:exported="false" />
+        <activity
+            android:name=".MeeveeBattle"
+            android:exported="false" />
+        <activity
+            android:name=".SteelBattle"
+            android:exported="false" />
+        <activity
+            android:name=".SylveBattle"
+            android:exported="false" />
+        <activity
+            android:name=".GlaceBattle"
+            android:exported="false" />
+        <activity
+            android:name=".LeafBattle"
+            android:exported="false" />
+        <activity
+            android:name=".UmbBattle"
+            android:exported="false" />
+        <activity
+            android:name=".EspBattle"
+            android:exported="false" />
+        <activity
+            android:name=".FlareBattle"
+            android:exported="false" />
+        <activity
+            android:name=".LoseScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ClassicGame"
+            android:exported="false" />
+        <activity
+            android:name=".Instructions"
+            android:exported="false" />
+        <activity
+            android:name=".StoryS1"
+            android:exported="false" />
+        <activity
+            android:name=".GameScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

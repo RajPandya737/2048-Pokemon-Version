@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#78A0F8"
+    tools:context=".Instructions">
+<!--Instructions screen-->
+    <!--Scroll view layout-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--I have about 4 linear layout. Each linear layout has text and an image and they alternate if its text first or an image first-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<!--All of these are meant to be empty, they will be filled in when the user chooses which instruction screen he would like to see via the spinner-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@drawable/instructionslogo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Click on the mode you want explained!"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/theSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#8888" />
+<!--Notice all of these have distinct ids, they will be mutated in the java file-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/I1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/empty" />
+
+                <TextView
+                    android:id="@+id/T1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/T2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:id="@+id/I2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/empty" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/I3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/empty"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/T3"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/T4"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"/>
+                <ImageView
+                    android:id="@+id/I4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/empty" />
+
+
+            </LinearLayout>
+            <!--This is a relative layout for the bottom gif and the button to take you back to the home screen-->
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="470dp"
+                    android:layout_height="231dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/ops1" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="?android:attr/colorActivatedHighlight"
+                    android:onClick="Home"
+                    android:text="Back"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#FFFFFF" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

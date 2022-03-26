@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#78A0F8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<!--Linear layout of the top 2 images-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:src="@drawable/ylogo" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pokemonlogog" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+<!--Linear layout of the top 2 buttons-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="?android:attr/colorActivatedHighlight"
+                    android:onClick="Story"
+                    android:text="Story"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"/>
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:onClick="Classic"
+                    android:backgroundTint="?android:attr/colorActivatedHighlight"
+                    android:text="Classic"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"/>
+            </LinearLayout>
+            <!--Linear layout of the bottom 2 buttons-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:onClick="Instructions"
+                    android:backgroundTint="?android:attr/colorActivatedHighlight"
+                    android:text="Instructions"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="?android:attr/colorActivatedHighlight"
+                        android:onClick="Rate"
+                        android:text="Rate"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+<!--Relative layout of the bottom gif-->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="470dp"
+                android:layout_height="231dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ops1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

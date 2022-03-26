@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_classic_game.xml" value="0.72" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_esp_battle.xml" value="0.6" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_flare_battle.xml" value="1.2" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_game_screen.xml" value="0.5032467532467533" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_game_screen2.xml" value="0.976" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_glace_battle.xml" value="0.5802139037433155" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_instructions.xml" value="0.72" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_leaf_battle.xml" value="0.8" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_load_screen.xml" value="0.8157894736842105" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_lose_screen.xml" value="0.6437346437346437" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_main.xml" value="0.8" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_meevee_battle.xml" value="0.976" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_rate_screen.xml" value="0.8187134502923976" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_steel_battle.xml" value="0.5802139037433155" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_story_s1.xml" value="0.8401253918495298" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_story_s2.xml" value="0.536" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_sylve_battle.xml" value="0.8" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_umb_battle.xml" value="0.536" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_win_screen_classic.xml" value="0.7631578947368421" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/layout/activity_win_screen_story.xml" value="0.8187134502923976" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.9657142857142857" />
+        <entry key="..\:/Users/pheon/AndroidStudioProjects/PandyaTwentyFourtyEight/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.9657142857142857" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.8800000000000001" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

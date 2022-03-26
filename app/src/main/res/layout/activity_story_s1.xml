@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/center">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<!--Relative layout is used to place text on the image box-->
+        <ImageView
+            android:layout_width="470dp"
+            android:layout_height="231dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="false"
+            android:src="@drawable/tbox" />
+        <TextView
+            android:id="@+id/words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello young traveler, you have been chosen to research, and catch new Eevee species. We suspect there are 3 new species, can you catch them?"
+            android:layout_margin="30dp"
+            android:textSize="25dp"/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<!--This is the continue box, it appears in the top right corner-->
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:src="@drawable/cont"
+            android:layout_marginRight="30dp"
+            android:onClick="text"/>
+
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<!--The professor Oak gif-->
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="470dp"
+            android:layout_height="231dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/oakgif" />
+
+    </RelativeLayout>
+</LinearLayout>

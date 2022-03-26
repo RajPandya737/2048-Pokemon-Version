@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+<!--Once you go through the dialogue, you will get to this screen where it will show you that you won-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Congratulations, You Win"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+<!--The image-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/winbg" />
+<!--Continue button that takes you to the home screen-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="home"
+        android:src="@drawable/cont"
+        />
+</LinearLayout>
